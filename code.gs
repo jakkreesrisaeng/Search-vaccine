@@ -17,7 +17,7 @@ function processForm(formObject){
  
 //SEARCH FOR MATCHED CONTENTS 
 function search(searchtext){
-  var spreadsheetId   = '1MnlL8q755eoN_OZTq2Cs9g7A9gn23j6TJspMcrhIwfY'; //** CHANGE !!!
+  var spreadsheetId   = 'xxxxxx'; //** CHANGE !!!
   var dataRange        = 'Data!A2:C';                                    //** CHANGE !!!
   var data = Sheets.Spreadsheets.Values.get(spreadsheetId, dataRange).values;
   var ar = [];
